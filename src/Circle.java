@@ -1,3 +1,4 @@
+// Exercice 1 Circle
 public class Circle {
     private double radius;
     private String color;
