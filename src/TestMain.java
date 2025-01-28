@@ -22,5 +22,19 @@ public class TestMain {
       System.out.println("width is: " + r1.getWidth());
       System.out.printf("area is: %.2f%n", r1.getArea());
       System.out.printf("perimeter is: %.2f%n", r1.getPerimeter());
+      
+      Employee e1 = new Employee(8, "Peter", "Tan", 2500); // Employé
+      System.out.println(e1);  
+      e1.setSalary(999);
+      System.out.println(e1);  
+      System.out.println("id is: " + e1.getId());
+      System.out.println("firstname is: " + e1.getFirstName());
+      System.out.println("lastname is: " + e1.getLastName());
+      System.out.println("salary is: " + e1.getSalary());
+
+      System.out.println("name is: " + e1.getName());
+      System.out.println("annual salary is: " + e1.getAnnualSalary());
+      System.out.println(e1.raiseSalary(10));
+      System.out.println(e1);
    }
 }
