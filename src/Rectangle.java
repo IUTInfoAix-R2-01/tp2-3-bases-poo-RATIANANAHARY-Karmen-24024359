@@ -1,3 +1,4 @@
+// Rectangle
 public class Rectangle {
     private float length;
     private float width;
